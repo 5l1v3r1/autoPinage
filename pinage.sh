@@ -145,7 +145,7 @@ while [[ $LOOP -le $MAX_LOOP ]] || [[ $MAX_LOOP -eq 0 ]]; do
 	echo "$TIME Wash" > /tmp/pinage/$LOOP-wash.log
 	# Wash scan
 	timeout $W_DURATION wash -i $IFACE -j >> /tmp/pinage/$LOOP-wash.log
-	PWNABLE=$( cat /tmp/pinage/$LOOP-wash.log | grep -E 'NB4-SER-r2|NB4-FXC-r1|NB4-FXC-r2|NB6V-FXC-r0|NB6V-FX-r1|NB6V-FX-r2|NB6V2-FXC-r0|NB6V-SER-r0|SagemcomFast3965|CBV38Z4EN|ZXHN H108N|ZXHN H298N' | uniq )
+	PWNABLE=$( cat /tmp/pinage/$LOOP-wash.log | grep -E 'NB4-SER-r2|NB4-FXC-r1|NB4-FXC-r2|NB6V-FXC-r0|NB6V-FX-r1|NB6V-FX-r2|NB6V2-FXC-r0|NB6V-SER-r0|SagemcomFast3965|CBV38Z4EN|ZXHN H108N|ZXHN H298N|NB6-FXC-r2|NB6-SER-r0|NB6-SER-r2' | uniq )
 
 	# If scan shows vulnerable AP
 	if [[ -n $PWNABLE ]]; then
