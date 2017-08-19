@@ -54,3 +54,8 @@ Some features might be added in the future :
 
 // TODO : Implement -F option "filter" by SSID instead of -j option in wash (faster but less accurate)
 // TODO : Implement -S option "safe", reaver with -x 360 -t 0.5 -S options
+
+## Credits :
+
+Site http://www.crack-wifi.com and forum http://www.crack-wifi.com/forum
+KCDTV  https://github.com/kcdtv/boxon
