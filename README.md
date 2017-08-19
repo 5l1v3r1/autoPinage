@@ -9,12 +9,19 @@
 ### Usage :
 
 Clone the repository :
+
 `git clone https://github.com/morojgovany/autoPinage.git`
+
 `cd autoPinage`
+
 Make the script executable :
+
 `chmod +x pinage.sh`
+
 Run it !
+
 `./pinage.sh -i <interface>`
+
 
 ### Manual :
 
