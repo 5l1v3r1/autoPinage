@@ -25,7 +25,7 @@ Run it !
 
 ### Manual :
 
-```
+`
 pinage.sh [OPTIONS] -i <IFACE>
 
 Required Arguments :
@@ -47,7 +47,7 @@ Examples :
 
 	./pinage.sh -i wlan0
 	./pinage.sh -i wlan0 -r 4 -l 5 -a 25 -s 15 -w 35
-	./pinage.sh -i wlan0mon -r 3 -a 35 -o /path/to/folder```
+	./pinage.sh -i wlan0mon -r 3 -a 35 -o /path/to/folder`
 
 
 Some features might be added in the future :
